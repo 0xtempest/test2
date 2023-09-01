@@ -15,7 +15,7 @@ os.environ["RWKV_CUDA_ON"] = '0' # if '1' then use CUDA kernel for seq mode (muc
 from vllm import LLM, SamplingParams
 
 sampling_params = SamplingParams(temperature=0.8, top_p=0.7, max_tokens=256)
-model = LLM(model="PersonaEnterprises/egirls-chat")
+model = LLM(model="egirlsai/egirls-chat")
 
 import asyncio
 
