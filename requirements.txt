@@ -1,0 +1,6 @@
+torch
+huggingface-hub
+pynvml
+numpy
+vllm
+aiohttp
